@@ -12,7 +12,7 @@
 		60FB1482A37CF232364D6450 /* libPods-SeismiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F278F657B873E7D2D208EE /* libPods-SeismiTests.a */; };
 		A76799861DA914450000A75C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799851DA914450000A75C /* main.m */; };
 		A76799891DA914450000A75C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799881DA914450000A75C /* AppDelegate.m */; };
-		A767998C1DA914450000A75C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A767998B1DA914450000A75C /* ViewController.m */; };
+		A767998C1DA914450000A75C /* EarthquakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A767998B1DA914450000A75C /* EarthquakesViewController.m */; };
 		A767998F1DA914450000A75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A767998D1DA914450000A75C /* Main.storyboard */; };
 		A76799911DA914450000A75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76799901DA914450000A75C /* Assets.xcassets */; };
 		A76799941DA914450000A75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76799921DA914450000A75C /* LaunchScreen.storyboard */; };
@@ -47,8 +47,8 @@
 		A76799851DA914450000A75C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A76799871DA914450000A75C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A76799881DA914450000A75C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A767998A1DA914450000A75C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A767998B1DA914450000A75C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A767998A1DA914450000A75C /* EarthquakesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthquakesViewController.h; sourceTree = "<group>"; };
+		A767998B1DA914450000A75C /* EarthquakesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthquakesViewController.m; sourceTree = "<group>"; };
 		A767998E1DA914450000A75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A76799901DA914450000A75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A76799931DA914450000A75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 			children = (
 				A76799871DA914450000A75C /* AppDelegate.h */,
 				A76799881DA914450000A75C /* AppDelegate.m */,
-				A767998A1DA914450000A75C /* ViewController.h */,
-				A767998B1DA914450000A75C /* ViewController.m */,
+				A767998A1DA914450000A75C /* EarthquakesViewController.h */,
+				A767998B1DA914450000A75C /* EarthquakesViewController.m */,
 				A767998D1DA914450000A75C /* Main.storyboard */,
 				A76799901DA914450000A75C /* Assets.xcassets */,
 				A76799921DA914450000A75C /* LaunchScreen.storyboard */,
@@ -446,7 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A767998C1DA914450000A75C /* ViewController.m in Sources */,
+				A767998C1DA914450000A75C /* EarthquakesViewController.m in Sources */,
 				A76799891DA914450000A75C /* AppDelegate.m in Sources */,
 				A76799861DA914450000A75C /* main.m in Sources */,
 			);

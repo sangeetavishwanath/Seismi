@@ -6,13 +6,13 @@
 //  Copyright © 2016 Sangeeta Vishwanath. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "EarthquakesViewController.h"
 
-@interface ViewController ()
+@interface EarthquakesViewController ()
 
 @end
 
-@implementation ViewController
+@implementation EarthquakesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
