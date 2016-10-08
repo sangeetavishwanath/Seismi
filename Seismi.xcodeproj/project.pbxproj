@@ -10,13 +10,14 @@
 		2FDD8012FD91EDC6411D2661 /* libPods-SeismiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0D49E792B545D6E2B50CC2 /* libPods-SeismiUITests.a */; };
 		5FB72209949BC0DDCBE2B916 /* libPods-Seismi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFA666D32283A358BB2EA16 /* libPods-Seismi.a */; };
 		60FB1482A37CF232364D6450 /* libPods-SeismiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F278F657B873E7D2D208EE /* libPods-SeismiTests.a */; };
+		A702CB161DA91C040002C010 /* EarthquakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A702CB121DA91C040002C010 /* EarthquakesViewController.m */; };
+		A702CB1C1DA91C4B0002C010 /* EarthquakesPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A702CB1B1DA91C4B0002C010 /* EarthquakesPresenter.m */; };
+		A702CB1E1DA91F490002C010 /* EarthquakesPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A702CB1D1DA91F490002C010 /* EarthquakesPresenterTests.m */; };
 		A76799861DA914450000A75C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799851DA914450000A75C /* main.m */; };
 		A76799891DA914450000A75C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799881DA914450000A75C /* AppDelegate.m */; };
-		A767998C1DA914450000A75C /* EarthquakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A767998B1DA914450000A75C /* EarthquakesViewController.m */; };
 		A767998F1DA914450000A75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A767998D1DA914450000A75C /* Main.storyboard */; };
 		A76799911DA914450000A75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76799901DA914450000A75C /* Assets.xcassets */; };
 		A76799941DA914450000A75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76799921DA914450000A75C /* LaunchScreen.storyboard */; };
-		A767999F1DA914450000A75C /* SeismiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A767999E1DA914450000A75C /* SeismiTests.m */; };
 		A76799AA1DA914450000A75C /* SeismiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799A91DA914450000A75C /* SeismiUITests.m */; };
 /* End PBXBuildFile section */
 
@@ -43,18 +44,20 @@
 		1A7DE1F6AA7CB71D384F1CCB /* Pods-SeismiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeismiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeismiTests/Pods-SeismiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4033CECF80266F9F53168F69 /* Pods-Seismi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seismi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seismi/Pods-Seismi.release.xcconfig"; sourceTree = "<group>"; };
 		47E286E4B331037E4531ADDC /* Pods-SeismiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeismiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeismiUITests/Pods-SeismiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A702CB111DA91C040002C010 /* EarthquakesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakesViewController.h; sourceTree = "<group>"; };
+		A702CB121DA91C040002C010 /* EarthquakesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakesViewController.m; sourceTree = "<group>"; };
+		A702CB1A1DA91C4B0002C010 /* EarthquakesPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakesPresenter.h; sourceTree = "<group>"; };
+		A702CB1B1DA91C4B0002C010 /* EarthquakesPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakesPresenter.m; sourceTree = "<group>"; };
+		A702CB1D1DA91F490002C010 /* EarthquakesPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakesPresenterTests.m; sourceTree = "<group>"; };
 		A76799811DA914450000A75C /* Seismi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seismi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76799851DA914450000A75C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A76799871DA914450000A75C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A76799881DA914450000A75C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A767998A1DA914450000A75C /* EarthquakesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthquakesViewController.h; sourceTree = "<group>"; };
-		A767998B1DA914450000A75C /* EarthquakesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthquakesViewController.m; sourceTree = "<group>"; };
 		A767998E1DA914450000A75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A76799901DA914450000A75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A76799931DA914450000A75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A76799951DA914450000A75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A767999A1DA914450000A75C /* SeismiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeismiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A767999E1DA914450000A75C /* SeismiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeismiTests.m; sourceTree = "<group>"; };
 		A76799A01DA914450000A75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A76799A51DA914450000A75C /* SeismiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeismiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76799A91DA914450000A75C /* SeismiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeismiUITests.m; sourceTree = "<group>"; };
@@ -106,6 +109,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A702CB101DA91C040002C010 /* EarthquakesSummary */ = {
+			isa = PBXGroup;
+			children = (
+				A702CB111DA91C040002C010 /* EarthquakesViewController.h */,
+				A702CB121DA91C040002C010 /* EarthquakesViewController.m */,
+				A702CB131DA91C040002C010 /* Model */,
+				A702CB141DA91C040002C010 /* Presenter */,
+				A702CB151DA91C040002C010 /* Service */,
+			);
+			path = EarthquakesSummary;
+			sourceTree = "<group>";
+		};
+		A702CB131DA91C040002C010 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A702CB141DA91C040002C010 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A702CB1A1DA91C4B0002C010 /* EarthquakesPresenter.h */,
+				A702CB1B1DA91C4B0002C010 /* EarthquakesPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A702CB151DA91C040002C010 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		A76799781DA914450000A75C = {
 			isa = PBXGroup;
 			children = (
@@ -131,10 +169,9 @@
 		A76799831DA914450000A75C /* Seismi */ = {
 			isa = PBXGroup;
 			children = (
+				A702CB101DA91C040002C010 /* EarthquakesSummary */,
 				A76799871DA914450000A75C /* AppDelegate.h */,
 				A76799881DA914450000A75C /* AppDelegate.m */,
-				A767998A1DA914450000A75C /* EarthquakesViewController.h */,
-				A767998B1DA914450000A75C /* EarthquakesViewController.m */,
 				A767998D1DA914450000A75C /* Main.storyboard */,
 				A76799901DA914450000A75C /* Assets.xcassets */,
 				A76799921DA914450000A75C /* LaunchScreen.storyboard */,
@@ -155,8 +192,8 @@
 		A767999D1DA914450000A75C /* SeismiTests */ = {
 			isa = PBXGroup;
 			children = (
-				A767999E1DA914450000A75C /* SeismiTests.m */,
 				A76799A01DA914450000A75C /* Info.plist */,
+				A702CB1D1DA91F490002C010 /* EarthquakesPresenterTests.m */,
 			);
 			path = SeismiTests;
 			sourceTree = "<group>";
@@ -446,9 +483,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A767998C1DA914450000A75C /* EarthquakesViewController.m in Sources */,
 				A76799891DA914450000A75C /* AppDelegate.m in Sources */,
 				A76799861DA914450000A75C /* main.m in Sources */,
+				A702CB161DA91C040002C010 /* EarthquakesViewController.m in Sources */,
+				A702CB1C1DA91C4B0002C010 /* EarthquakesPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A767999F1DA914450000A75C /* SeismiTests.m in Sources */,
+				A702CB1E1DA91F490002C010 /* EarthquakesPresenterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

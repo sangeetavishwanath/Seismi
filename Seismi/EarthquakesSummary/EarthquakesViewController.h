@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EarthquakesViewController.h
 //  Seismi
 //
 //  Created by Sangeeta Vishwanath on 8/10/2016.
