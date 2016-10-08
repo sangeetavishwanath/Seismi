@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FDD8012FD91EDC6411D2661 /* libPods-SeismiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0D49E792B545D6E2B50CC2 /* libPods-SeismiUITests.a */; };
+		5FB72209949BC0DDCBE2B916 /* libPods-Seismi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFA666D32283A358BB2EA16 /* libPods-Seismi.a */; };
+		60FB1482A37CF232364D6450 /* libPods-SeismiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F278F657B873E7D2D208EE /* libPods-SeismiTests.a */; };
+		A76799861DA914450000A75C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799851DA914450000A75C /* main.m */; };
+		A76799891DA914450000A75C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799881DA914450000A75C /* AppDelegate.m */; };
+		A767998C1DA914450000A75C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A767998B1DA914450000A75C /* ViewController.m */; };
+		A767998F1DA914450000A75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A767998D1DA914450000A75C /* Main.storyboard */; };
+		A76799911DA914450000A75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76799901DA914450000A75C /* Assets.xcassets */; };
+		A76799941DA914450000A75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76799921DA914450000A75C /* LaunchScreen.storyboard */; };
+		A767999F1DA914450000A75C /* SeismiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A767999E1DA914450000A75C /* SeismiTests.m */; };
+		A76799AA1DA914450000A75C /* SeismiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799A91DA914450000A75C /* SeismiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A767999B1DA914450000A75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76799791DA914450000A75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A76799801DA914450000A75C;
+			remoteInfo = Seismi;
+		};
+		A76799A61DA914450000A75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76799791DA914450000A75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A76799801DA914450000A75C;
+			remoteInfo = Seismi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09937BF060A2AD86689576FC /* Pods-Seismi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seismi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seismi/Pods-Seismi.debug.xcconfig"; sourceTree = "<group>"; };
+		0F98F8B14C3C6C4E4DE8E635 /* Pods-SeismiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeismiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeismiTests/Pods-SeismiTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A7DE1F6AA7CB71D384F1CCB /* Pods-SeismiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeismiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeismiTests/Pods-SeismiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4033CECF80266F9F53168F69 /* Pods-Seismi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seismi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seismi/Pods-Seismi.release.xcconfig"; sourceTree = "<group>"; };
+		47E286E4B331037E4531ADDC /* Pods-SeismiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeismiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeismiUITests/Pods-SeismiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A76799811DA914450000A75C /* Seismi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seismi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76799851DA914450000A75C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A76799871DA914450000A75C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A76799881DA914450000A75C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A767998A1DA914450000A75C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A767998B1DA914450000A75C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A767998E1DA914450000A75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A76799901DA914450000A75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A76799931DA914450000A75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A76799951DA914450000A75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A767999A1DA914450000A75C /* SeismiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeismiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A767999E1DA914450000A75C /* SeismiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeismiTests.m; sourceTree = "<group>"; };
+		A76799A01DA914450000A75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76799A51DA914450000A75C /* SeismiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeismiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76799A91DA914450000A75C /* SeismiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeismiUITests.m; sourceTree = "<group>"; };
+		A76799AB1DA914450000A75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFA666D32283A358BB2EA16 /* libPods-Seismi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Seismi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F278F657B873E7D2D208EE /* libPods-SeismiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeismiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0D49E792B545D6E2B50CC2 /* libPods-SeismiUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeismiUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5EF387BEED9C1E3100F16FF /* Pods-SeismiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeismiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeismiUITests/Pods-SeismiUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A767997E1DA914450000A75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB72209949BC0DDCBE2B916 /* libPods-Seismi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76799971DA914450000A75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FB1482A37CF232364D6450 /* libPods-SeismiTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76799A21DA914450000A75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDD8012FD91EDC6411D2661 /* libPods-SeismiUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9306C873B32105919FFC2A39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09937BF060A2AD86689576FC /* Pods-Seismi.debug.xcconfig */,
+				4033CECF80266F9F53168F69 /* Pods-Seismi.release.xcconfig */,
+				1A7DE1F6AA7CB71D384F1CCB /* Pods-SeismiTests.debug.xcconfig */,
+				0F98F8B14C3C6C4E4DE8E635 /* Pods-SeismiTests.release.xcconfig */,
+				47E286E4B331037E4531ADDC /* Pods-SeismiUITests.debug.xcconfig */,
+				E5EF387BEED9C1E3100F16FF /* Pods-SeismiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A76799781DA914450000A75C = {
+			isa = PBXGroup;
+			children = (
+				A76799831DA914450000A75C /* Seismi */,
+				A767999D1DA914450000A75C /* SeismiTests */,
+				A76799A81DA914450000A75C /* SeismiUITests */,
+				A76799821DA914450000A75C /* Products */,
+				9306C873B32105919FFC2A39 /* Pods */,
+				D0EAFD995E4598BC2C2E2FFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A76799821DA914450000A75C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76799811DA914450000A75C /* Seismi.app */,
+				A767999A1DA914450000A75C /* SeismiTests.xctest */,
+				A76799A51DA914450000A75C /* SeismiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A76799831DA914450000A75C /* Seismi */ = {
+			isa = PBXGroup;
+			children = (
+				A76799871DA914450000A75C /* AppDelegate.h */,
+				A76799881DA914450000A75C /* AppDelegate.m */,
+				A767998A1DA914450000A75C /* ViewController.h */,
+				A767998B1DA914450000A75C /* ViewController.m */,
+				A767998D1DA914450000A75C /* Main.storyboard */,
+				A76799901DA914450000A75C /* Assets.xcassets */,
+				A76799921DA914450000A75C /* LaunchScreen.storyboard */,
+				A76799951DA914450000A75C /* Info.plist */,
+				A76799841DA914450000A75C /* Supporting Files */,
+			);
+			path = Seismi;
+			sourceTree = "<group>";
+		};
+		A76799841DA914450000A75C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A76799851DA914450000A75C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A767999D1DA914450000A75C /* SeismiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A767999E1DA914450000A75C /* SeismiTests.m */,
+				A76799A01DA914450000A75C /* Info.plist */,
+			);
+			path = SeismiTests;
+			sourceTree = "<group>";
+		};
+		A76799A81DA914450000A75C /* SeismiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A76799A91DA914450000A75C /* SeismiUITests.m */,
+				A76799AB1DA914450000A75C /* Info.plist */,
+			);
+			path = SeismiUITests;
+			sourceTree = "<group>";
+		};
+		D0EAFD995E4598BC2C2E2FFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA666D32283A358BB2EA16 /* libPods-Seismi.a */,
+				B2F278F657B873E7D2D208EE /* libPods-SeismiTests.a */,
+				DA0D49E792B545D6E2B50CC2 /* libPods-SeismiUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A76799801DA914450000A75C /* Seismi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76799AE1DA914450000A75C /* Build configuration list for PBXNativeTarget "Seismi" */;
+			buildPhases = (
+				EFFA291244BD6C8AEFD7E667 /* [CP] Check Pods Manifest.lock */,
+				A767997D1DA914450000A75C /* Sources */,
+				A767997E1DA914450000A75C /* Frameworks */,
+				A767997F1DA914450000A75C /* Resources */,
+				1004CA585D019E6F4514FDCC /* [CP] Embed Pods Frameworks */,
+				B72805033B80978923BBC308 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seismi;
+			productName = Seismi;
+			productReference = A76799811DA914450000A75C /* Seismi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A76799991DA914450000A75C /* SeismiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76799B11DA914450000A75C /* Build configuration list for PBXNativeTarget "SeismiTests" */;
+			buildPhases = (
+				2F85B662972AFF893CDC37E2 /* [CP] Check Pods Manifest.lock */,
+				A76799961DA914450000A75C /* Sources */,
+				A76799971DA914450000A75C /* Frameworks */,
+				A76799981DA914450000A75C /* Resources */,
+				80D97B12AD00E99183D0B8B4 /* [CP] Embed Pods Frameworks */,
+				8186720A821D101670829ECA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A767999C1DA914450000A75C /* PBXTargetDependency */,
+			);
+			name = SeismiTests;
+			productName = SeismiTests;
+			productReference = A767999A1DA914450000A75C /* SeismiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A76799A41DA914450000A75C /* SeismiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76799B41DA914450000A75C /* Build configuration list for PBXNativeTarget "SeismiUITests" */;
+			buildPhases = (
+				87F16972190C721F03D5AA78 /* [CP] Check Pods Manifest.lock */,
+				A76799A11DA914450000A75C /* Sources */,
+				A76799A21DA914450000A75C /* Frameworks */,
+				A76799A31DA914450000A75C /* Resources */,
+				5CE2D221454622F6EA250761 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A76799A71DA914450000A75C /* PBXTargetDependency */,
+			);
+			name = SeismiUITests;
+			productName = SeismiUITests;
+			productReference = A76799A51DA914450000A75C /* SeismiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A76799791DA914450000A75C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sangeeta Vishwanath";
+				TargetAttributes = {
+					A76799801DA914450000A75C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A76799991DA914450000A75C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X8H87ZM82J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A76799801DA914450000A75C;
+					};
+					A76799A41DA914450000A75C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X8H87ZM82J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A76799801DA914450000A75C;
+					};
+				};
+			};
+			buildConfigurationList = A767997C1DA914450000A75C /* Build configuration list for PBXProject "Seismi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A76799781DA914450000A75C;
+			productRefGroup = A76799821DA914450000A75C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A76799801DA914450000A75C /* Seismi */,
+				A76799991DA914450000A75C /* SeismiTests */,
+				A76799A41DA914450000A75C /* SeismiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A767997F1DA914450000A75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76799941DA914450000A75C /* LaunchScreen.storyboard in Resources */,
+				A76799911DA914450000A75C /* Assets.xcassets in Resources */,
+				A767998F1DA914450000A75C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76799981DA914450000A75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76799A31DA914450000A75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1004CA585D019E6F4514FDCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seismi/Pods-Seismi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F85B662972AFF893CDC37E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE2D221454622F6EA250761 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeismiUITests/Pods-SeismiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80D97B12AD00E99183D0B8B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeismiTests/Pods-SeismiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8186720A821D101670829ECA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeismiTests/Pods-SeismiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F16972190C721F03D5AA78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B72805033B80978923BBC308 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seismi/Pods-Seismi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFFA291244BD6C8AEFD7E667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A767997D1DA914450000A75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A767998C1DA914450000A75C /* ViewController.m in Sources */,
+				A76799891DA914450000A75C /* AppDelegate.m in Sources */,
+				A76799861DA914450000A75C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76799961DA914450000A75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A767999F1DA914450000A75C /* SeismiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76799A11DA914450000A75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76799AA1DA914450000A75C /* SeismiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A767999C1DA914450000A75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A76799801DA914450000A75C /* Seismi */;
+			targetProxy = A767999B1DA914450000A75C /* PBXContainerItemProxy */;
+		};
+		A76799A71DA914450000A75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A76799801DA914450000A75C /* Seismi */;
+			targetProxy = A76799A61DA914450000A75C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A767998D1DA914450000A75C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A767998E1DA914450000A75C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A76799921DA914450000A75C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76799931DA914450000A75C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A76799AC1DA914450000A75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A76799AD1DA914450000A75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A76799AF1DA914450000A75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09937BF060A2AD86689576FC /* Pods-Seismi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Seismi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.sangeetavishwanath.Seismi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A76799B01DA914450000A75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4033CECF80266F9F53168F69 /* Pods-Seismi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Seismi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.sangeetavishwanath.Seismi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A76799B21DA914450000A75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7DE1F6AA7CB71D384F1CCB /* Pods-SeismiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X8H87ZM82J;
+				INFOPLIST_FILE = SeismiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.sangeetavishwanath.SeismiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seismi.app/Seismi";
+			};
+			name = Debug;
+		};
+		A76799B31DA914450000A75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F98F8B14C3C6C4E4DE8E635 /* Pods-SeismiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X8H87ZM82J;
+				INFOPLIST_FILE = SeismiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.sangeetavishwanath.SeismiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seismi.app/Seismi";
+			};
+			name = Release;
+		};
+		A76799B51DA914450000A75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E286E4B331037E4531ADDC /* Pods-SeismiUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X8H87ZM82J;
+				INFOPLIST_FILE = SeismiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.sangeetavishwanath.SeismiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Seismi;
+			};
+			name = Debug;
+		};
+		A76799B61DA914450000A75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EF387BEED9C1E3100F16FF /* Pods-SeismiUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X8H87ZM82J;
+				INFOPLIST_FILE = SeismiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.sangeetavishwanath.SeismiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Seismi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A767997C1DA914450000A75C /* Build configuration list for PBXProject "Seismi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76799AC1DA914450000A75C /* Debug */,
+				A76799AD1DA914450000A75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76799AE1DA914450000A75C /* Build configuration list for PBXNativeTarget "Seismi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76799AF1DA914450000A75C /* Debug */,
+				A76799B01DA914450000A75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76799B11DA914450000A75C /* Build configuration list for PBXNativeTarget "SeismiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76799B21DA914450000A75C /* Debug */,
+				A76799B31DA914450000A75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76799B41DA914450000A75C /* Build configuration list for PBXNativeTarget "SeismiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76799B51DA914450000A75C /* Debug */,
+				A76799B61DA914450000A75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A76799791DA914450000A75C /* Project object */;
+}
