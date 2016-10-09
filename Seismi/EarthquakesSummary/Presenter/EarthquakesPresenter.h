@@ -30,6 +30,12 @@
  */
 - (void)earthquakesDataLoaded;
 
+/**
+ Directs the view surface to display an error
+ @param message The error message
+ */
+- (void)displayErrorMessage:(NSString *)message;
+
 @end
 
 /**

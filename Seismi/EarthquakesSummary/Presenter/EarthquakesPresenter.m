@@ -12,6 +12,8 @@
 
 #import <SeismiKit/SeismiKit.h>
 
+static NSString *const kAlertError = @"There was an error loading earthquakes. Please try again.";
+
 @interface EarthquakesPresenter () <EarthquakesControllerDelegate>
 
 @property (nonatomic, strong) EarthquakesController *earthquakesController;
@@ -71,7 +73,7 @@
 
 - (void)earthquakesController:(EarthquakesController *)controller didFailToRetrieveEarthquakesWithError:(NSError *)error
 {
-    
+    [self.viewSurface displayErrorMessage:kAlertError];
 }
 
 @end

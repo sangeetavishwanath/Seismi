@@ -12,6 +12,9 @@
 #import "EarthquakeTableViewCell.h"
 #import "EarthquakesPresenter.h"
 
+static NSString *const kAlertTitle = @"Error";
+static NSString *const kAlertAction = @"Retry";
+
 @interface EarthquakesViewController () <EarthquakesViewSurface, UITableViewDataSource>
 
 @property (nonatomic, strong) EarthquakesPresenter *presenter;
@@ -52,6 +55,23 @@
 - (void)earthquakesDataLoaded
 {
     [self.earthquakesTableView reloadData];
+}
+
+- (void)displayErrorMessage:(NSString *)message
+{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:kAlertTitle
+                                                                   message:message
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+
+    __weak __typeof__(self) weakSelf = self;
+    [alert addAction:[UIAlertAction actionWithTitle:kAlertAction
+                                              style:UIAlertActionStyleCancel
+                                            handler:^(UIAlertAction * _Nonnull action) {
+                                                __strong __typeof__(weakSelf) strongSelf = weakSelf;
+                                                [strongSelf.presenter earthquakesViewDidLoad];
+                                            }]];
+
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 #pragma mark - UITableViewDataSource
