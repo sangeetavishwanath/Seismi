@@ -14,6 +14,7 @@
 
 @property (nonatomic, strong) EarthquakesPresenter *presenter;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (weak, nonatomic) IBOutlet UITableView *earthquakesTableView;
 
 @end
 
@@ -41,6 +42,11 @@
 - (void)hideLoadingIndicator
 {
     [self.activityIndicator stopAnimating];
+}
+
+- (void)earthquakesDataLoaded
+{
+    [self.earthquakesTableView reloadData];
 }
 
 @end

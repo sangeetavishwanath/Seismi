@@ -39,7 +39,8 @@
 
 - (void)earthquakesController:(EarthquakesController *)controller didRetrieveEarthquakes:(NSArray<Earthquake *> *)earthquakes
 {
-
+    [self.viewSurface hideLoadingIndicator];
+    [self.viewSurface earthquakesDataLoaded];
 }
 
 - (void)earthquakesController:(EarthquakesController *)controller didFailToRetrieveEarthquakesWithError:(NSError *)error

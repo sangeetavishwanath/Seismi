@@ -89,6 +89,7 @@
                     </view>
                     <connections>
                         <outlet property="activityIndicator" destination="Wu0-0e-cjZ" id="fkr-sp-6eE"/>
+                        <outlet property="earthquakesTableView" destination="gMz-kY-toh" id="2Kh-Iw-khe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Px-Zn-xyB" userLabel="First Responder" sceneMemberID="firstResponder"/>

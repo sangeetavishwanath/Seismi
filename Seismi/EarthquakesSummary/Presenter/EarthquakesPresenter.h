@@ -23,6 +23,11 @@
  */
 - (void)hideLoadingIndicator;
 
+/**
+ Notifies the view surface that the earthquake data has been loaded
+ */
+- (void)earthquakesDataLoaded;
+
 @end
 
 /**
