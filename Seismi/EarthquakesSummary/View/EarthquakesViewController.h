@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EarthquakesViewController.h
 //  Seismi
 //
 //  Created by Sangeeta Vishwanath on 8/10/2016.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+/**
+ This class encapsulates a summary view of earthquakes.
+ */
+@interface EarthquakesViewController : UIViewController
 
 @end
 

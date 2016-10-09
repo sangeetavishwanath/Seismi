@@ -21,6 +21,9 @@ PODS:
   - OCHamcrest (4.3.0)
   - OCMockito (2.0.1):
     - OCHamcrest (~> 4.0)
+  - SeismiKit (0.0.1):
+    - AFNetworking (~> 3.1)
+    - Mantle (~> 2.0)
   - Specta (1.0.2)
 
 DEPENDENCIES:
@@ -28,7 +31,18 @@ DEPENDENCIES:
   - Expecta (= 1.0.0)
   - Mantle (~> 2.0)
   - OCMockito (= 2.0.1)
+  - SeismiKit (from `https://github.com/sangeetavishwanath/SeismiKit.git`, branch `master`)
   - Specta (= 1.0.2)
+
+EXTERNAL SOURCES:
+  SeismiKit:
+    :branch: master
+    :git: https://github.com/sangeetavishwanath/SeismiKit.git
+
+CHECKOUT OPTIONS:
+  SeismiKit:
+    :commit: c681443e192416b6ff069f38e8f89144beeced9b
+    :git: https://github.com/sangeetavishwanath/SeismiKit.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -36,8 +50,9 @@ SPEC CHECKSUMS:
   Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
   OCHamcrest: cd63d27f48a266d4412c0b295b01b8f0940efa81
   OCMockito: f92ad4c6fac2841a88558879cfe517c40aebf91e
+  SeismiKit: 7f0181321f4c171236fc13bceb95f6b9faf4a00e
   Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
 
-PODFILE CHECKSUM: c72a234906034678242f574009ea21e53ee976bf
+PODFILE CHECKSUM: b996307bbf7ad40eb390f554962ba8dc3906750e
 
 COCOAPODS: 1.0.1
