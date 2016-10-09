@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iOy-bn-jnO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Earthquakes View Controller-->
+        <scene sceneID="qrb-CC-7R6">
+            <objects>
+                <viewController id="iOy-bn-jnO" customClass="EarthquakesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uxv-uF-V1i"/>
+                        <viewControllerLayoutGuide type="bottom" id="atL-7P-EGZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Eht-6r-ATV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Wst-rT-LUb">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wst-rT-LUb" firstAttribute="centerX" secondItem="Eht-6r-ATV" secondAttribute="centerX" id="ALz-Nv-IGE"/>
+                            <constraint firstItem="Wst-rT-LUb" firstAttribute="centerY" secondItem="Eht-6r-ATV" secondAttribute="centerY" id="AbK-YH-4H7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Wst-rT-LUb" id="yn5-5L-tKy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Px-Zn-xyB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="515" y="281"/>
+        </scene>
+    </scenes>
+</document>

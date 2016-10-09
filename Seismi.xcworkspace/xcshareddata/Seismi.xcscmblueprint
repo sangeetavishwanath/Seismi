@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2D319AD3607B53F683DD3BD4B2100FA09B1E5CB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C84B14193EF595EFDD21BB6C347B83F1EF5E23DF" : 9223372036854775807,
+    "2D319AD3607B53F683DD3BD4B2100FA09B1E5CB6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D0FC2900-F8F2-40C9-930A-34171F34982E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C84B14193EF595EFDD21BB6C347B83F1EF5E23DF" : "SeismiKit\/",
+    "2D319AD3607B53F683DD3BD4B2100FA09B1E5CB6" : "Seismi\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Seismi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Seismi.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sangeetavishwanath\/Seismi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D319AD3607B53F683DD3BD4B2100FA09B1E5CB6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sangeetavishwanath\/SeismiKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C84B14193EF595EFDD21BB6C347B83F1EF5E23DF"
+    }
+  ]
+}
