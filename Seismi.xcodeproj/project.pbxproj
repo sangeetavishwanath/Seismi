@@ -10,10 +10,12 @@
 		2FDD8012FD91EDC6411D2661 /* libPods-SeismiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0D49E792B545D6E2B50CC2 /* libPods-SeismiUITests.a */; };
 		5FB72209949BC0DDCBE2B916 /* libPods-Seismi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFA666D32283A358BB2EA16 /* libPods-Seismi.a */; };
 		60FB1482A37CF232364D6450 /* libPods-SeismiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F278F657B873E7D2D208EE /* libPods-SeismiTests.a */; };
-		A702CB161DA91C040002C010 /* EarthquakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A702CB121DA91C040002C010 /* EarthquakesViewController.m */; };
 		A702CB1C1DA91C4B0002C010 /* EarthquakesPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A702CB1B1DA91C4B0002C010 /* EarthquakesPresenter.m */; };
 		A702CB1E1DA91F490002C010 /* EarthquakesPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A702CB1D1DA91F490002C010 /* EarthquakesPresenterTests.m */; };
 		A73F66941DA9EAEF0021A1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73F66931DA9EAEF0021A1FB /* Main.storyboard */; };
+		A73F669C1DAA18670021A1FB /* EarthquakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73F669B1DAA18670021A1FB /* EarthquakesViewController.m */; };
+		A73F669F1DAA18970021A1FB /* EarthquakeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A73F669E1DAA18970021A1FB /* EarthquakeTableViewCell.m */; };
+		A73F66A21DAA19600021A1FB /* EarthquakeCellPresentationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A73F66A11DAA19600021A1FB /* EarthquakeCellPresentationModel.m */; };
 		A76799861DA914450000A75C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799851DA914450000A75C /* main.m */; };
 		A76799891DA914450000A75C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799881DA914450000A75C /* AppDelegate.m */; };
 		A76799911DA914450000A75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76799901DA914450000A75C /* Assets.xcassets */; };
@@ -43,12 +45,16 @@
 		1A7DE1F6AA7CB71D384F1CCB /* Pods-SeismiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeismiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeismiTests/Pods-SeismiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4033CECF80266F9F53168F69 /* Pods-Seismi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seismi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seismi/Pods-Seismi.release.xcconfig"; sourceTree = "<group>"; };
 		47E286E4B331037E4531ADDC /* Pods-SeismiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeismiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeismiUITests/Pods-SeismiUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A702CB111DA91C040002C010 /* EarthquakesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakesViewController.h; sourceTree = "<group>"; };
-		A702CB121DA91C040002C010 /* EarthquakesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakesViewController.m; sourceTree = "<group>"; };
 		A702CB1A1DA91C4B0002C010 /* EarthquakesPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakesPresenter.h; sourceTree = "<group>"; };
 		A702CB1B1DA91C4B0002C010 /* EarthquakesPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakesPresenter.m; sourceTree = "<group>"; };
 		A702CB1D1DA91F490002C010 /* EarthquakesPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakesPresenterTests.m; sourceTree = "<group>"; };
 		A73F66931DA9EAEF0021A1FB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A73F669A1DAA18670021A1FB /* EarthquakesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakesViewController.h; sourceTree = "<group>"; };
+		A73F669B1DAA18670021A1FB /* EarthquakesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakesViewController.m; sourceTree = "<group>"; };
+		A73F669D1DAA18970021A1FB /* EarthquakeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakeTableViewCell.h; sourceTree = "<group>"; };
+		A73F669E1DAA18970021A1FB /* EarthquakeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakeTableViewCell.m; sourceTree = "<group>"; };
+		A73F66A01DAA19600021A1FB /* EarthquakeCellPresentationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakeCellPresentationModel.h; sourceTree = "<group>"; };
+		A73F66A11DAA19600021A1FB /* EarthquakeCellPresentationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakeCellPresentationModel.m; sourceTree = "<group>"; };
 		A76799811DA914450000A75C /* Seismi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seismi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76799851DA914450000A75C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A76799871DA914450000A75C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,8 +116,7 @@
 		A702CB101DA91C040002C010 /* EarthquakesSummary */ = {
 			isa = PBXGroup;
 			children = (
-				A702CB111DA91C040002C010 /* EarthquakesViewController.h */,
-				A702CB121DA91C040002C010 /* EarthquakesViewController.m */,
+				A73F66991DAA18670021A1FB /* View */,
 				A702CB131DA91C040002C010 /* Model */,
 				A702CB141DA91C040002C010 /* Presenter */,
 				A702CB151DA91C040002C010 /* Service */,
@@ -122,6 +127,8 @@
 		A702CB131DA91C040002C010 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A73F66A01DAA19600021A1FB /* EarthquakeCellPresentationModel.h */,
+				A73F66A11DAA19600021A1FB /* EarthquakeCellPresentationModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +147,17 @@
 			children = (
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		A73F66991DAA18670021A1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A73F669A1DAA18670021A1FB /* EarthquakesViewController.h */,
+				A73F669B1DAA18670021A1FB /* EarthquakesViewController.m */,
+				A73F669D1DAA18970021A1FB /* EarthquakeTableViewCell.h */,
+				A73F669E1DAA18970021A1FB /* EarthquakeTableViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A76799781DA914450000A75C = {
@@ -481,8 +499,10 @@
 			files = (
 				A76799891DA914450000A75C /* AppDelegate.m in Sources */,
 				A76799861DA914450000A75C /* main.m in Sources */,
-				A702CB161DA91C040002C010 /* EarthquakesViewController.m in Sources */,
 				A702CB1C1DA91C4B0002C010 /* EarthquakesPresenter.m in Sources */,
+				A73F669C1DAA18670021A1FB /* EarthquakesViewController.m in Sources */,
+				A73F66A21DAA19600021A1FB /* EarthquakeCellPresentationModel.m in Sources */,
+				A73F669F1DAA18970021A1FB /* EarthquakeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
