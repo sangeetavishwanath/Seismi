@@ -122,7 +122,6 @@
 				A73F66991DAA18670021A1FB /* View */,
 				A702CB131DA91C040002C010 /* Model */,
 				A702CB141DA91C040002C010 /* Presenter */,
-				A702CB151DA91C040002C010 /* Service */,
 			);
 			path = EarthquakesSummary;
 			sourceTree = "<group>";
@@ -145,13 +144,6 @@
 				A702CB1B1DA91C4B0002C010 /* EarthquakesPresenter.m */,
 			);
 			path = Presenter;
-			sourceTree = "<group>";
-		};
-		A702CB151DA91C040002C010 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		A73F66991DAA18670021A1FB /* View */ = {

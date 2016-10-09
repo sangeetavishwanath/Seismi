@@ -15,6 +15,7 @@
 @interface EarthquakesViewController () <EarthquakesViewSurface, UITableViewDataSource>
 
 @property (nonatomic, strong) EarthquakesPresenter *presenter;
+
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (weak, nonatomic) IBOutlet UITableView *earthquakesTableView;
 
