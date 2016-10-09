@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @class EarthquakeCellPresentationModel;
+@class EarthquakesController;
 
 /**
  This protocol defines actions to be performed by the Earthquakes view
@@ -42,6 +43,14 @@
  This class encapsulates the presentation logic for the earthquakes view
  */
 @interface EarthquakesPresenter : NSObject
+
+/**
+ Initialises the EarthquakesPresenter with an EarthquakesController
+
+ @param earthquakesConroller The EarthquakesController
+ @return An instance of EarthquakesPresenter
+ */
+- (instancetype)initWithEarthquakesController:(EarthquakesController *)earthquakesConroller;
 
 /**
  The earthquakes view surface

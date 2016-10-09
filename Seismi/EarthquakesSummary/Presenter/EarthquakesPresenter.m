@@ -18,16 +18,32 @@ static NSString *const kAlertError = @"There was an error loading earthquakes. P
 
 @property (nonatomic, strong) EarthquakesController *earthquakesController;
 @property (nonatomic, strong) NSArray<EarthquakeCellPresentationModel *> *cellModels;
+
 @end
 
 @implementation EarthquakesPresenter
 
+- (instancetype)initWithEarthquakesController:(EarthquakesController *)earthquakesConroller
+{
+    self = [super init];
+
+    if (self) {
+        _earthquakesController = earthquakesConroller;
+        _earthquakesController.delegate = self;
+    }
+
+    return self;
+}
+
+- (instancetype)init
+{
+    EarthquakesController *controller = [[EarthquakesController alloc] init];
+    return [self initWithEarthquakesController:controller];
+}
+
 - (void)earthquakesViewDidLoad
 {
     [self.viewSurface displayLoadingIndicator];
-
-    self.earthquakesController = [[EarthquakesController alloc] init];
-    self.earthquakesController.delegate = self;
 
     [self loadEarthquakes];
 }
