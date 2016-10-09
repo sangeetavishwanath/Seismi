@@ -8,9 +8,11 @@
 
 #import "EarthquakesViewController.h"
 
+#import "EarthquakeCellPresentationModel.h"
+#import "EarthquakeTableViewCell.h"
 #import "EarthquakesPresenter.h"
 
-@interface EarthquakesViewController () <EarthquakesViewSurface>
+@interface EarthquakesViewController () <EarthquakesViewSurface, UITableViewDataSource>
 
 @property (nonatomic, strong) EarthquakesPresenter *presenter;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
@@ -25,6 +27,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    self.earthquakesTableView.dataSource= self;
 
     self.presenter = [[EarthquakesPresenter alloc] init];
     self.presenter.viewSurface = self;
@@ -47,6 +51,28 @@
 - (void)earthquakesDataLoaded
 {
     [self.earthquakesTableView reloadData];
+}
+
+#pragma mark - UITableViewDataSource
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return [self.presenter numberOfSectionsInEarthquakeTable];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [self.presenter numberOfRowsInSection:section];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    EarthquakeCellPresentationModel *model = [self.presenter cellModelForRowAtIndexPath:indexPath];
+
+    EarthquakeTableViewCell *cell = [self.earthquakesTableView dequeueReusableCellWithIdentifier:model.cellIdentifier];
+    [cell configureWithModel:model];
+
+    return cell; 
 }
 
 @end

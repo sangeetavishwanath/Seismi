@@ -8,12 +8,14 @@
 
 #import "EarthquakesPresenter.h"
 
+#import "EarthquakeCellPresentationModel.h"
+
 #import <SeismiKit/SeismiKit.h>
 
 @interface EarthquakesPresenter () <EarthquakesControllerDelegate>
 
 @property (nonatomic, strong) EarthquakesController *earthquakesController;
-
+@property (nonatomic, strong) NSArray<EarthquakeCellPresentationModel *> *cellModels;
 @end
 
 @implementation EarthquakesPresenter
@@ -28,6 +30,21 @@
     [self loadEarthquakes];
 }
 
+- (NSInteger)numberOfSectionsInEarthquakeTable
+{
+    return 1;
+}
+
+- (NSInteger)numberOfRowsInSection:(NSUInteger)sectionIndex
+{
+    return [self.cellModels count];
+}
+
+- (EarthquakeCellPresentationModel *)cellModelForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return [self.cellModels objectAtIndex:indexPath.row];
+}
+
 #pragma mark - Helpers
 
 - (void)loadEarthquakes
@@ -39,6 +56,15 @@
 
 - (void)earthquakesController:(EarthquakesController *)controller didRetrieveEarthquakes:(NSArray<Earthquake *> *)earthquakes
 {
+    NSMutableArray<EarthquakeCellPresentationModel *> *models = [NSMutableArray array];
+
+    for (Earthquake *earthquake in earthquakes) {
+        EarthquakeCellPresentationModel *model = [[EarthquakeCellPresentationModel alloc] initWithEarthquake:earthquake];
+        [models addObject:model];
+    }
+
+    self.cellModels = models;
+
     [self.viewSurface hideLoadingIndicator];
     [self.viewSurface earthquakesDataLoaded];
 }

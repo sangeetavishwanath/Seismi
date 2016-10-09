@@ -16,6 +16,7 @@
 		A73F669C1DAA18670021A1FB /* EarthquakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73F669B1DAA18670021A1FB /* EarthquakesViewController.m */; };
 		A73F669F1DAA18970021A1FB /* EarthquakeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A73F669E1DAA18970021A1FB /* EarthquakeTableViewCell.m */; };
 		A73F66A21DAA19600021A1FB /* EarthquakeCellPresentationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A73F66A11DAA19600021A1FB /* EarthquakeCellPresentationModel.m */; };
+		A73F66A51DAA2EF80021A1FB /* UIColor+EarthquakeSeverity.m in Sources */ = {isa = PBXBuildFile; fileRef = A73F66A41DAA2EF80021A1FB /* UIColor+EarthquakeSeverity.m */; };
 		A76799861DA914450000A75C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799851DA914450000A75C /* main.m */; };
 		A76799891DA914450000A75C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76799881DA914450000A75C /* AppDelegate.m */; };
 		A76799911DA914450000A75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76799901DA914450000A75C /* Assets.xcassets */; };
@@ -55,6 +56,8 @@
 		A73F669E1DAA18970021A1FB /* EarthquakeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakeTableViewCell.m; sourceTree = "<group>"; };
 		A73F66A01DAA19600021A1FB /* EarthquakeCellPresentationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakeCellPresentationModel.h; sourceTree = "<group>"; };
 		A73F66A11DAA19600021A1FB /* EarthquakeCellPresentationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakeCellPresentationModel.m; sourceTree = "<group>"; };
+		A73F66A31DAA2EF80021A1FB /* UIColor+EarthquakeSeverity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+EarthquakeSeverity.h"; sourceTree = "<group>"; };
+		A73F66A41DAA2EF80021A1FB /* UIColor+EarthquakeSeverity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+EarthquakeSeverity.m"; sourceTree = "<group>"; };
 		A76799811DA914450000A75C /* Seismi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seismi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76799851DA914450000A75C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A76799871DA914450000A75C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 			children = (
 				A73F66A01DAA19600021A1FB /* EarthquakeCellPresentationModel.h */,
 				A73F66A11DAA19600021A1FB /* EarthquakeCellPresentationModel.m */,
+				A73F66A31DAA2EF80021A1FB /* UIColor+EarthquakeSeverity.h */,
+				A73F66A41DAA2EF80021A1FB /* UIColor+EarthquakeSeverity.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -502,6 +507,7 @@
 				A702CB1C1DA91C4B0002C010 /* EarthquakesPresenter.m in Sources */,
 				A73F669C1DAA18670021A1FB /* EarthquakesViewController.m in Sources */,
 				A73F66A21DAA19600021A1FB /* EarthquakeCellPresentationModel.m in Sources */,
+				A73F66A51DAA2EF80021A1FB /* UIColor+EarthquakeSeverity.m in Sources */,
 				A73F669F1DAA18970021A1FB /* EarthquakeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,11 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+@class Earthquake;
+
 @interface EarthquakeCellPresentationModel : NSObject
 
+@property (nonatomic, readonly, copy) NSString *cellIdentifier;
 @property (nonatomic, readonly, copy) NSString *titleText;
 @property (nonatomic, readonly, copy) NSString *subtitleText;
 @property (nonatomic, readonly, copy) NSString *accessoryText;
 @property (nonatomic, readonly) UIColor *cellColor;
+
+- (instancetype)initWithEarthquake:(Earthquake *)earthquake;
 
 @end

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class EarthquakeCellPresentationModel;
+
 /**
  This protocol defines actions to be performed by the Earthquakes view
  */
@@ -44,5 +46,20 @@
  This method handles the event where the earthquakes view did load
  */
 - (void)earthquakesViewDidLoad;
+
+/**
+ This method returns the number of sections in the table
+ */
+- (NSInteger)numberOfSectionsInEarthquakeTable;
+
+/**
+ This method returns the number of rows in the given section
+ */
+- (NSInteger)numberOfRowsInSection:(NSUInteger)sectionIndex;
+
+/**
+ This method returns the presentation model for the cell at given index path
+ */
+- (EarthquakeCellPresentationModel *)cellModelForRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end

@@ -22,9 +22,11 @@
 - (void)configureWithModel:(EarthquakeCellPresentationModel *)model
 {
     self.titleLabel.text = model.titleText;
-    self.subtitleLabel.text = model.titleText;
+    self.subtitleLabel.text = model.subtitleText;
     self.accessoryLabel.text = model.accessoryText;
     self.backgroundColor = model.cellColor;
+
+    self.autoresizingMask = UIViewAutoresizingFlexibleHeight;
 }
 
 @end
