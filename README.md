@@ -39,14 +39,14 @@ In the author's interpretation of Model-View-Presenter, the `EarthquakesViewCont
 #### Improvements: Testing
 Implement Xcode UI testing for the Seismi iOS app.
 
-#### Improvements in UI design
+#### Improvements: UI design
 The Seismi iOS app represents the earthquakes data in a UITableView. The color of the cell is representative of the severity of the earthquake. We can make the following improvements to the UI design:
 
 * Pagination
 * Searching, sorting and filtering on the earthquake data
 * An alternative map view which loads relevant earthquake data on the map view as the customer navigates to various regions of the world.
 
-#### Build Automation
+#### Improvements: Build Automation
 * Build scripts - Fastlane 
 * Test reports - Slather
 * Continuous Integration - Jenkins / BuildKite
