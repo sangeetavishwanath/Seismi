@@ -1,0 +1,1 @@
+../../../SeismiKit/SeismiKit/SeismiKit.h

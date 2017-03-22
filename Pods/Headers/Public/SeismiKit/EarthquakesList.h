@@ -1,0 +1,1 @@
+../../../SeismiKit/SeismiKit/Earthquakes/Model/EarthquakesList.h
